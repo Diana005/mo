@@ -7,12 +7,78 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher0"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher0_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.My_app"
         tools:targetApi="31">
+        <activity
+            android:name=".WeatherTest"
+            android:exported="false" />
+        <activity
+            android:name=".PofBTest"
+            android:exported="false" />
+        <activity
+            android:name=".KitchenTest"
+            android:exported="false" />
+        <activity
+            android:name=".KofSHTest"
+            android:exported="false" />
+        <activity
+            android:name=".JandOTest"
+            android:exported="false" />
+        <activity
+            android:name=".FandVTest"
+            android:exported="false" />
+        <activity
+            android:name=".EmotionsTest"
+            android:exported="false" />
+        <activity
+            android:name=".ColorsTest"
+            android:exported="false" />
+        <activity
+            android:name=".BedroomTest"
+            android:exported="false" />
+        <activity
+            android:name=".BathroomTest"
+            android:exported="false" />
+        <activity
+            android:name=".emotions.Emotions"
+            android:exported="false" />
+        <activity
+            android:name=".kindsofshop.KindsOfShop"
+            android:exported="false" />
+        <activity
+            android:name=".bathroom.Bathroom"
+            android:exported="false" />
+        <activity
+            android:name=".kitchen.Kitchen"
+            android:exported="false" />
+        <activity
+            android:name=".bedroom.Bedroom"
+            android:exported="false" />
+        <activity
+            android:name=".partsofbody.PartsOfBody"
+            android:exported="false" />
+        <activity
+            android:name=".jobandoccupation.JobAndOccupations"
+            android:exported="false" />
+        <activity
+            android:name=".fruitsandvegetables.FruitsAndVegetables"
+            android:exported="false" />
+        <activity
+            android:name=".weather.Weather"
+            android:exported="false" />
+        <activity
+            android:name=".colors.Colors"
+            android:exported="false" />
+        <activity
+            android:name=".Instruction"
+            android:exported="false" />
+        <activity
+            android:name=".Menue"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

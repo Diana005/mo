@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">My_app</string>
+    <string name="app_name">Let`s Learn English</string>
+    <string name="start">Давай изучим английский</string>
+    <string name="start_button">Начать</string>
+    <string name="instruction_button">Инструкция</string>
+    <string name="i">Вернуться</string>
+    <string name="instruction">Будут различные интерфейсы для заданий.
+                                                 Задания, на которые надо ответить «да» или «нет» (например пары слов: long-длинный; power-простой),
+                                                   Задания на правописание (например вставить недостающие буквы в слове),                                                                                   Задания на сопоставление пар слов или картинок (например: rabbit – хорек, кролик, удав),
+                                                                                  Будут выводиться правильные ответы после каждого курса заданий, с указанием где ошиблись вы. Если правильных ответов меньше N% повторить курс.</string>
+    <string name="colors">Colors</string>
+
 </resources>

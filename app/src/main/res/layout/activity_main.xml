@@ -1,18 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/f1a3a43568e9139307d9a863e660bda"
     tools:context=".MainActivity">
-
     <TextView
+        android:id="@+id/start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="@string/start"
+        android:textSize="50sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="200sp"
+        android:layout_marginHorizontal="35sp"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        />
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/start"
+        android:backgroundTint="@color/purple_200"
+        android:layout_marginTop="50sp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/start_button"
+        android:textSize="25sp"
+        />
+    <Button
+        android:id="@+id/instruction_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/start_button"
+        android:backgroundTint="@color/purple_200"
+        android:layout_marginTop="30sp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/instruction_button"
+        android:textSize="25sp"
+        />
+
+
+</RelativeLayout>
